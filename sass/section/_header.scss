@@ -1,0 +1,36 @@
+.header {
+  padding-top: 16px;
+
+  @media screen and (min-width: 752px) {
+    padding-top: 24px;
+  }
+  @media screen and (min-width: 1264px) {
+    padding-top: 28px;
+  }
+
+  &__icon {
+    width: 45px;
+    height: 35px;
+margin-right: auto;
+    @media screen and (min-width: 752px) {
+      width: 72px;
+      height: 57px;
+      margin-right: 80px;
+    }
+    @media screen and (min-width: 1264px) {
+        margin-right: 261px;
+    }
+  }
+
+&__nav{
+    display: none;
+
+    @media screen and (min-width: 752px) {
+    display: block;
+      }
+}
+
+
+
+
+}
