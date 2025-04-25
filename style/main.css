@@ -24,9 +24,33 @@ address {
 }
 
 button {
-  bottom: none;
+  border: none;
+  background: transparent;
 }
 
 body {
   font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 1264px;
+  margin: 0 auto;
+  padding: 0 8px;
+  outline: 1px solid red;
+}
+@media screen and (min-width: 304px) {
+  .container {
+    width: 304px;
+  }
+}
+@media screen and (min-width: 752px) {
+  .container {
+    width: 752px;
+    padding: 0 16px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .container {
+    width: 1264px;
+  }
 }/*# sourceMappingURL=main.css.map */
