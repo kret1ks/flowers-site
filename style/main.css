@@ -29,7 +29,7 @@ button {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -91,5 +91,21 @@ body {
 @media screen and (min-width: 752px) {
   .header__nav {
     display: block;
+    margin-right: auto;
   }
+}
+.header__list {
+  display: flex;
+  gap: 24px;
+}
+@media screen and (min-width: 1264px) {
+  .header__list {
+    gap: 48px;
+  }
+}
+.header__link {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
 }/*# sourceMappingURL=main.css.map */
