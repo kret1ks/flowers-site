@@ -146,4 +146,122 @@ body {
 .header__burger {
   width: 24px;
   height: 24px;
+}
+
+.hero {
+  background-position: center 40px;
+  background-repeat: no-repeat;
+  padding-top: 154px;
+  padding-bottom: 224px;
+  background-size: 145px, 274px;
+  position: relative;
+  background-image: url(../img/mobile/hero-mobile@1x.webp);
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/mobile/hero-mobile@2x.webp);
+  }
+}
+@media screen and (min-width: 752px) {
+  .hero {
+    padding-top: 300px;
+    padding-bottom: 418px;
+    background-size: 390px, 636px;
+    background-image: url(../img/tablet/hero-tablet@1x.webp);
+  }
+}
+@media screen and (min-width: 752px) and (min-device-pixel-ratio: 2), screen and (min-width: 752px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 752px) and (min-resolution: 192dpi), screen and (min-width: 752px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/tablet/hero-tablet@2x.webp);
+  }
+}
+@media screen and (min-width: 1264px) {
+  .hero {
+    padding-top: 292px;
+    padding-bottom: 435px;
+    background-size: 390px, 636px;
+    background-image: url(../img/desktop/hero-desktop@1x.webp);
+  }
+}
+@media screen and (min-width: 1264px) and (min-device-pixel-ratio: 2), screen and (min-width: 1264px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1264px) and (min-resolution: 192dpi), screen and (min-width: 1264px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/desktop/hero-desktop@2x.webp);
+  }
+}
+.hero__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero__text {
+  width: 46px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+@media screen and (min-width: 752px) {
+  .hero__text {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .hero__text {
+    font-size: 32px;
+  }
+}
+.hero__icon {
+  width: 64px;
+  height: 76px;
+  flex-shrink: 0;
+}
+@media screen and (min-width: 752px) {
+  .hero__icon {
+    width: 145px;
+    height: 150px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .hero__icon {
+    width: 166px;
+    height: 166px;
+  }
+}
+.hero__title {
+  color: #000;
+  text-align: center;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  bottom: 105px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+@media screen and (min-width: 752px) {
+  .hero__title {
+    font-size: 120px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .hero__title {
+    font-size: 160px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .hero__span {
+    display: none;
+  }
+}
+@media screen and (max-width: 1263px) {
+  .hero__span1 {
+    display: none;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .hero__span1 {
+    display: block;
+  }
 }/*# sourceMappingURL=main.css.map */
