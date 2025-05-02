@@ -264,4 +264,94 @@ body {
   .hero__span1 {
     display: block;
   }
+}
+
+.about .container {
+  background-image: url(../img/mobile/flowers-mobile@1x.webp);
+  background-repeat: no-repeat;
+  background-size: 288px, 178px;
+  background-position: bottom center;
+}
+@media screen and (max-width: 751px) {
+  .about .container {
+    height: 390px;
+  }
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .about .container {
+    background-image: url(../img/mobile/flowers-mobile@2x.webp);
+  }
+}
+@media screen and (min-width: 752px) {
+  .about .container {
+    background-image: url(../img/tablet/flowers-tablet@1x.webp);
+    background-position: right bottom;
+    background-size: 344px, 217px;
+  }
+}
+@media screen and (min-width: 752px) and (min-device-pixel-ratio: 2), screen and (min-width: 752px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 752px) and (min-resolution: 192dpi), screen and (min-width: 752px) and (min-resolution: 2dppx) {
+  .about .container {
+    background-image: url(../img/tablet/flowers-tablet@2x.webp);
+  }
+}
+@media screen and (min-width: 1264px) {
+  .about .container {
+    height: 424px;
+    background-image: url(../img/desktop/flowers-desktop@1x.webp);
+    background-size: 632px, 344px;
+  }
+}
+@media screen and (min-width: 1264px) and (min-device-pixel-ratio: 2), screen and (min-width: 1264px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1264px) and (min-resolution: 192dpi), screen and (min-width: 1264px) and (min-resolution: 2dppx) {
+  .about .container {
+    background-image: url(../img/desktop/flowers-desktop@2x.webp);
+  }
+}
+.about__title {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+@media screen and (min-width: 752px) {
+  .about__title {
+    font-size: 44px;
+  }
+}
+.about__title::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  display: inline-block;
+}
+.about__text {
+  width: 288px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 32px;
+}
+@media screen and (min-width: 752px) {
+  .about__text {
+    font-size: 22px;
+    width: 322px;
+  }
+}
+@media screen and (min-width: 752px) {
+  .about__text {
+    font-size: 22px;
+    width: 322px;
+    margin-top: 56px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .about__text {
+    width: 510px;
+    font-size: 22px;
+    margin-top: 120px;
+  }
 }/*# sourceMappingURL=main.css.map */
